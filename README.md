@@ -26,3 +26,7 @@ Takes a list of terms and returns a heat map of the euclidian distances between 
 
 ### gensim_tutorials
 Taken from <https://radimrehurek.com/gensim/auto_examples/>.  For learning about the gensim library
+#### Tutorial 1
+creating a corpus, working with models
+#### Tutorial 2
+streaming data, daving data, working w/ scipy/numpy
