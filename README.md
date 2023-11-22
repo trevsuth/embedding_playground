@@ -19,4 +19,7 @@ Take a list of words, looks up their embeddings and then uses TSNE for dimension
 THis is useful as it shows how the embedding space is common to all words, and that similar ideas tend to cluster there.
 
 ### vector_math.py
-Attempts to provethe addage that in the embeggings space ('king' - 'man') + 'woman' = 'queen' (hint: It doesn't).  But still. looking at how these vecotrs work and can be related to one another is interesting.
+Attempts to provethe addage that in the embeggings space ('king' - 'man') + 'woman' = 'queen' (hint: It doesn't).  But still, looking at how these vecotrs work and can be related to one another is interesting.
+
+### word_distances.py
+Takes a list of terms and returns a heat map of the euclidian distances between them all.  This differs from the graph in that no dimensenionality reduction is performed, only a simple euclidian distance calculation.
