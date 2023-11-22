@@ -3,7 +3,7 @@
 
 ## Install
 All examples are built off the 50 dimension, 6B glove embeddings.  To prepare your working directory:
-- Download https://nlp.stanford.edu/data/glove.6B.zip from https://nlp.stanford.edu/projects/glove/
+- Download <https://nlp.stanford.edu/data/glove.6B.zip> from <https://nlp.stanford.edu/projects/glove/>
 - unzip the file.
 - scripts assume the presence of ```glove.6B.50d.txt``` in your directory.  All other versions can be deleted.
 
@@ -23,3 +23,6 @@ Attempts to provethe addage that in the embeggings space ('king' - 'man') + 'wom
 
 ### word_distances.py
 Takes a list of terms and returns a heat map of the euclidian distances between them all.  This differs from the graph in that no dimensenionality reduction is performed, only a simple euclidian distance calculation.
+
+### gensim_tutorials
+Taken from <https://radimrehurek.com/gensim/auto_examples/>.  For learning about the gensim library

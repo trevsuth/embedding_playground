@@ -24,7 +24,13 @@ def calculate_distances(model, words):
 model = load_glove_model('glove.6B.50d.txt')
 
 # Words to compare
-words = ['bike', 'plane', 'car', 'bus', 'train', 'automobile', 'motorcycle']
+words = ['bike', 
+         'plane', 
+         'car', 
+         'bus', 
+         'train', 
+         'automobile', 
+         'motorcycle']
 
 # Calculate distances
 distances = calculate_distances(model, words)
