@@ -13,7 +13,10 @@ Other than that, the normal process applies:
 
 ## About the files
 
-### graph_embeddings
+### graph_embeddings.py
 Take a list of words, looks up their embeddings and then uses TSNE for dimensionality reduction to 2 engineered dimensions.  These are then used to graph the words.
 
 THis is useful as it shows how the embedding space is common to all words, and that similar ideas tend to cluster there.
+
+### vector_math.py
+Attempts to provethe addage that in the embeggings space ('king' - 'man') + 'woman' = 'queen' (hint: It doesn't).  But still. looking at how these vecotrs work and can be related to one another is interesting.
