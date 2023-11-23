@@ -6,7 +6,7 @@ import numpy as np
 
 def load_embeddings():
     # file names
-    glove_input_file = 'glove.6B.50d.txt'
+    glove_input_file = 'DataSets/glove.6B.50d.txt'
     
     # load model
     model = KeyedVectors.load_word2vec_format(glove_input_file, 

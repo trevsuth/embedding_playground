@@ -7,7 +7,7 @@ def load_glove_model(glove_file_path):
 
 
 # Load your GloVe model
-model = load_glove_model('glove.6B.50d.txt')
+model = load_glove_model('DataSets/glove.6B.50d.txt')
 
 # Get vectors
 king = model['king']

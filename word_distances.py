@@ -21,7 +21,7 @@ def calculate_distances(model, words):
     return distances
 
 # Load your GloVe model
-model = load_glove_model('glove.6B.50d.txt')
+model = load_glove_model('DataSets/glove.6B.50d.txt')
 
 # Words to compare
 words = ['bike', 
